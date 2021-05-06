@@ -95,7 +95,7 @@ data_pre$duplicate <- NULL
 
 
 
-Una vez limpiados los datos, el siguiente paso en el pre procesamiento será escalar los datos pero antes debemos revisar los datos por si hay que transformar alguna variable
+Una vez limpiados los datos, el siguiente paso en el pre procesamiento serÃ¡ escalar los datos pero antes debemos revisar los datos por si hay que transformar alguna variable
 
 ## Revisar Estructura Datos
 
@@ -257,7 +257,7 @@ ggdendrogram(model_complete, rotate = TRUE, theme_dendro = TRUE)
 # Determinamos un valor para h lo que nos entregara un valor distinto de k para cada h que escogamos, tambien podemos definir el k desde un inicio
 groups <- cutree(model_complete, h = 9)
 
-# Se imprimen los tamaños de cada cluster
+# Se imprimen los tamaÃ±os de cada cluster
 table(groups)
 
 # Generamos una nueva columna para almacenar a que cluster pertenece cada observacion (tanto en data_pre y datanum)
@@ -333,7 +333,7 @@ pltree(modelo_div, cex = 0.8, hang = -1.5, main = "Dendrogram of diana")
 # Para el caso divisivo le entregaremos el numero de clusters con los que queremos agrupar nuestros datos
 groupsc2 <- cutree(modelo_div, k = 10)
 
-# Se imprimen los tamaños de cada cluster
+# Se imprimen los tamaÃ±os de cada cluster
 table(groupsc2)
 
 # Generamos una nueva columna para almacenar a que cluster pertenece cada observacion de data_c2
